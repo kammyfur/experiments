@@ -1,0 +1,306 @@
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2022- Minteck
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  ~
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minteck Experiments</title>
+    <style>
+        .container {
+            width: 60vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                width: 75vw !important;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                width: 95vw !important;
+            }
+        }
+
+        body {
+            background: #030c1d;
+            color: #63abff;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+
+        #header {
+            border: 1px solid #63abff;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #list-active, #list-planned, #list-done {
+            border: 1px solid #63abff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        table td, table th, table {
+            border: 1px solid #63abff;
+            border-collapse: collapse;
+        }
+
+        table {
+            width: calc(100% + 22px);
+            margin-left: -11px;
+            margin-right: -11px;
+        }
+
+        a {
+            color: #63abff;
+        }
+
+        summary {
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        details {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+
+    <div class="container" id="header">
+        <h1>Minteck Experiments</h1>
+        <p>The incredible not-so-long list of experiments Minteck is currently doing, plans to do, or has done in the past.</p>
+    </div>
+
+    <div class="container" id="list-active">
+        <h2>Active Experiments</h2>
+        <p>These experiments are publicly exposed live and can be accessed for as long as they are active. Don't use in production, as these may go down at any time without warning.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Dates</th>
+                    <th>URL(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>WolfEye Search</td>
+                    <td>
+                        <b>Started:</b> Dec 2021<br>
+                        <i>No EOL estimate</i><br>
+                        <i>No EOL reason</i>
+                    </td>
+                    <td>
+                        <a href="https://wolfeye.minteck.org">wolfeye.minteck.org.</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>HTML5 Foxperson</td>
+                    <td>
+                        <b>Started:</b> Aug 2021<br>
+                        <b>EOL Estimate:</b> May 2022<br>
+                        <b>EOL Reason:</b> Replacing with Foxperson's official website
+                    </td>
+                    <td>
+                        <a href="https://playfluff.minteck.org">playfluff.minteck.org.</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Project Sattelite Public Beta</td>
+                    <td>
+                        <b>Started:</b> Nov 2021<br>
+                        <b>EOL Estimate:</b> Mar 2022<br>
+                        <b>EOL Reason:</b> Website becoming stable
+                    </td>
+                    <td>
+                        <a href="https://staging.minteck.org">staging.minteck.org.</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Did you say ponies?</td>
+                    <td>
+                        <b>Started:</b> Dec 2021<br>
+                        <i>No EOL estimate</i><br>
+                        <i>No EOL reason</i>
+                    </td>
+                    <td>
+                        <a href="https://pony.minteck.org">pony.minteck.org.</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p><small>Minteck and Pawer Experimental Infrastructure makes no warranty regarding reliability, security or stability of these experimental services. Use at your own risk.</small></p>
+    </div>
+
+    <div class="container" id="list-planned">
+        <h2>Planned Future Experiments</h2>
+        <p>These experiments are currently under development and may be published in the near future if the concept is interesting enough.</p>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Dates</th>
+                <th>URL(s)</th>
+            </tr>
+            </thead>
+            <tbody>
+<!--            <tr>-->
+<!--                <td>Metroz Translate</td>-->
+<!--                <td>-->
+<!--                    <b>Started:</b> Sep 2021<br>-->
+<!--                    <b>Publish Estimate:</b> Jan 2022<br>-->
+<!--                    <b>EOL Estimate:</b> Apr 2022<br>-->
+<!--                    <b>Reason:</b> - -->
+<!--                </td>-->
+<!--                <td>-->
+<!--                    <a href="https://pony.minteck.org">translate.minteck.org.</a>-->
+<!--                </td>-->
+<!--            </tr>-->
+            </tbody>
+        </table>
+        <p><small>Minteck and Pawer Experimental Infrastructure makes no warranty regarding reliability, security or stability of these experimental services. Use at your own risk.</small></p>
+    </div>
+
+    <div class="container" id="list-done">
+        <h2>Finished Experiments</h2>
+        <p>These experiments have been taken offline and cannot be accessed anymore. Their source code is usually put publicly accessible, check <a href="https://minteck.org/archive">the archives page</a> for details.</p>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Dates</th>
+                <th>Former URL(s)</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>PinPages</td>
+                <td>
+                    <b>Started:</b> May 2019<br>
+                    <b>Finished:</b> Aug 2021<br>
+                    <b>Reason:</b> Unused and hard to maintain<br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    pinpages.alwaysdata.net.
+                </td>
+            </tr>
+            <tr>
+                <td>Minteck Photos</td>
+                <td>
+                    <b>Started:</b> Oct 2021<br>
+                    <b>Finished:</b> Nov 2021<br>
+                    <b>Reason:</b> No interest in publishing<br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    photos.minteck.org.
+                </td>
+            </tr>
+            <tr>
+                <td>UnchainedTech</td>
+                <td>
+                    <b>Started:</b> Jun 2021<br>
+                    <b>Finished:</b> Dec 2021<br>
+                    <b>Reason:</b> Replaced by <a href="https://blog.minteck.org">Minteck Blog</a><br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    unchained.minteck.org.
+                </td>
+            </tr>
+            <tr>
+                <td>PlasmaWalls</td>
+                <td>
+                    <b>Started:</b> Jan 2021<br>
+                    <b>Finished:</b> Feb 2021<br>
+                    <b>Reason:</b> Website disabled by hosting provider<br>
+                    <b>Eventual Comeback:</b> Yes
+                </td>
+                <td>
+                    plasmawalls.alwaysdata.net
+                </td>
+            </tr>
+            <tr>
+                <td>Tyson Fans</td>
+                <td>
+                    <b>Started:</b> Dec 2018<br>
+                    <b>Finished:</b> Aug 2021<br>
+                    <b>Reason:</b> Service doesn't seem serious<br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    tyson-fans.rf.gd.
+                </td>
+            </tr>
+            <tr>
+                <td>BetterSearch</td>
+                <td>
+                    <b>Started:</b> Dec 2019<br>
+                    <b>Finished:</b> Aug 2021<br>
+                    <b>Reason:</b> Later replaced by <a href="https://wolfeye.minteck.org">WolfEye Search</a><br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    better-search.000webhostapp.com.
+                </td>
+            </tr>
+            <tr>
+                <td>CMS Store</td>
+                <td>
+                    <b>Started:</b> Oct 2019<br>
+                    <b>Finished:</b> Feb 2020<br>
+                    <b>Reason:</b> Unused and hard to maintain/implement<br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    store.mpcms.rf.gd.
+                </td>
+            </tr>
+            <tr>
+                <td>Minteck Projects Account</td>
+                <td>
+                    <b>Started:</b> Apr 2019<br>
+                    <b>Finished:</b> Dec 2019<br>
+                    <b>Reason:</b> Unused and hard to moderate<br>
+                    <b>Eventual Comeback:</b> No
+                </td>
+                <td>
+                    mpnotes.000webhostapp.com.
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <p><small>Minteck and Pawer Experimental Infrastructure makes no warranty regarding reliability, security or stability of these experimental services. Use at your own risk.</small></p>
+    </div>
+</body>
+</html>
